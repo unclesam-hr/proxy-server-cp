@@ -1,0 +1,593 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "GT-Eesti 5r", Arial, sans-serif;
+    font-size: 100%;
+}
+
+body {
+    overflow-anchor: none;
+    font-family: "GT-Eesti 3r", Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    color: #363636;
+    min-width: 960px;
+}
+
+img {
+    border: none;
+    outline: none;
+}
+
+#components-cp {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* PRODUCTS CONTAINER */
+
+.product-Container {
+    /* background: #ebdbff; */
+    margin: 0 auto;
+    width: 960px;
+    padding: 0;
+    clear: both;
+}
+
+.product-Container .products {
+    width: 960px;
+    padding-bottom: 80px;
+}
+
+.product-Container .sectionHeader {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.product-Container .sectionHeader a {
+    float: right;
+    font: normal 11px "GT-Eesti 3r", Arial, sans-serif;
+    margin-top: 7px;
+    margin-right: 20px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #866347;
+    color: #866347;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.product-Container .sectionHeader a:hover, .product-Container .sectionHeader a:focus {
+    color: #023a51;
+    border-color: #023a51;
+}
+
+.product-Container .sectionHeader h2 {
+    font-family: "GT-Eesti 5r", Arial, sans-serif;
+    font-size: 17.7px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #050708;
+    text-transform: uppercase;
+    margin: 0 0 10px
+}
+
+/* Scroller CSS */
+
+.carousel-container {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.carousel-container img {
+    width: 225px;
+    height: 247px;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+    max-height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide span {
+    font-size: 12px;
+}
+
+.swiper-slide p {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.swiper-slide .strikethrough {
+    text-decoration: line-through;
+}
+
+.swiper-slide .price-special {
+    color: #af1a31;
+}
+
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+    opacity: 0;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: url(https://storage.cloud.google.com/afucktonofchairs/right-arrow.svg);
+    left: 0px;
+    right: auto;
+    transform: rotate(180deg);
+    width: 37px;
+    height: 60px;
+    background-size: 37px 60px;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    background-image: url(https://storage.cloud.google.com/afucktonofchairs/right-arrow.svg);
+    right: 0px;
+    left: auto;
+    width: 37px;
+    height: 60px;
+    background-size: 37px 60px;
+}
+
+/* Collection CSS */
+
+.product-Container .products .collection-container {
+    position: relative;
+    width: 960px;
+    display: inline-block;
+    /* padding-bottom: 80px; */
+}
+
+.product-Container .products .collection-container .collection h2 {
+    font-family: "GT-Eesti 5r", Arial, sans-serif;
+    font-size: 17.7px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #050708;
+    text-transform: uppercase;
+    margin: 0 0 10px
+}
+
+.product-Container .products .collection-container .collection .collectionItem {
+    /* background-color: #d6fff1; */
+    display: -webkit-flex;
+    display: flex;
+    float: left;
+    width: 240px;
+    padding-right: 5px;
+}
+
+.product-Container .products .collection-container .collection .collectionItem ul {
+    /* background-color: #d6fff1; */
+    display: -webkit-flex;
+    display: flex;
+}
+
+.product-Container .products .collection-container .collection .collectionItem img {
+    width: 225px;
+    height: 247px;
+}
+
+ol, ul {
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+}
+
+p, li {
+    font-family: "GT-Eesti 2r", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.643em;
+    letter-spacing: 0.5px;
+    color: #363636;
+    margin-bottom: 15px;
+}
+
+h3, .h3 {
+    margin: 0 0 10px;
+    font-family: "GT-Eesti 5r", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17.719px;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+    color: #363636;
+    text-transform: capitalize;
+}
+
+h4, .h4 {
+    margin: 0 0 10px;
+    font-family: "GT-Eesti 4r", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 17.719px;
+    font-style: italic;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #050708;
+    text-transform: capitalize;
+}
+
+/* PIP BOILER PLATE */
+
+#boiler-plate-desktop {
+    background-color: #f8f8f8;
+    width: 99.5vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#boiler-plate-desktop h2 {
+    margin: 0 0 15px;
+    font-family: "GT-Eesti 3r", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 22.425px;
+    line-height: 38px;
+    letter-spacing: 0.8px;
+    color: #050708;
+    text-transform: lowercase;
+    font-size: 36px;
+    font-family: "GT-Eesti 4r", Arial, sans-serif;
+    margin: 0;
+}
+
+#boiler-plate-desktop h3 {
+    font-family: "GT-Eesti 4r", Arial, sans-serif;
+    font-size: 23px;
+    text-transform: lowercase;
+    color: #050708;
+}
+
+#boiler-plate-desktop h4 {
+    font-family: "GT-Eesti 5r", Arial, sans-serif;
+    font-size: 19.934px;
+    text-transform: lowercase;
+    color: #050708;
+    font-style: normal;
+}
+
+#boiler-plate-desktop .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#boiler-plate-desktop .container .col {
+    margin: 0 50px;
+    width: 240px;
+}
+
+#boiler-plate-desktop .container .col img {
+    width: 200px;
+}
+
+#related-queries {
+    width: 100%;
+    clear: both;
+}
+
+#related-queries .custombox-side {
+    width: 99.5vw;
+    position: relative;
+    margin-left: -50vw;
+    padding-top: 50px;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Related Products - More Products Widget */
+
+#more-products-widget {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 720px !important;
+    margin-right: 0;
+    position: relative;
+}
+
+#more-products-widget img {
+    width: 225px;
+    height: 247px;
+    padding-right: 20px;
+}
+
+.br-related-heading, .br-more-heading {
+    font-family: "GT-Eesti 5r", Arial, sans-serif;
+    font-size: 17.7px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #050708;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.br-related-searches li a {
+    padding-bottom: 1px;
+    border-bottom: 1px solid #866347;
+    color: #866347;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.br-related-searches li a:hover {
+    color: #023a51;
+    border-color: #023a51;
+}
+
+#more-products-widget .br-more-widget {
+    float: left;
+    width: 220px;
+    padding: 0;
+    height: auto !important;
+    margin: 0 20px 0 0;
+}
+
+#more-products-widget .br-more-widget>a {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin: 0 0 10px;
+    float: left;
+    display: block;
+    min-width: 220px !important;
+    font-family: "GT-Eesti 3r", Arial, sans-serif;
+    font-size: 12.444px;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin: 0 0 10px;
+    padding-bottom: 0;
+    border-bottom: none;
+    color: #363636;
+    text-decoration: none;
+    cursor: pointer;
+    color: #050708;
+}
+
+#more-products-widget .br-more-widget>a:hover {
+    color: #866347;
+    border-color: #866347;
+}
+
+.br-more-widget-popup {
+    float: left;
+    width: 108px;
+    padding: 5px 10px 10px;
+    position: relative;
+}
+
+/* Searches */
+
+#br-related-searches-widget {
+    padding-bottom: 15px;
+    width: 220px;
+    float: left;
+    clear: both;
+    margin-left: 0;
+}
+
+#br-related-searches .br-related-searches li a {
+    padding-bottom: 1px;
+    border-bottom: 1px solid #866347;
+    color: #866347;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer CSS */
+
+#footer-container {
+    background: #f8f8f8;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+
+#footer-container .footer {
+    width: 960px;
+    clear: both;
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#footer-container .subfooter {
+    margin-top: 20px;
+    width: 960px;
+    display: inline-block;
+}
+
+#footer-container ul {
+    color: #d9d9d9;
+    margin: 0;
+    display: block;
+    clear: both;
+}
+
+#footer-container ul .footer-link {
+    margin-bottom: 10px;
+    font-size: 12.444px;
+}
+
+#footer-container ul .footer-link .footer-link__title-link {
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    color: #363636;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#footer-container ul .footer-link .footer-link__title-link:hover, .footer-links-section ul .footer-link .footer-link__title-link:focus {
+    color: #866347;
+    border-color: #866347;
+}
+
+#footer-container ul li h3, #footer-container ul li h3 a {
+    font-size: 12.444px;
+}
+
+#footer-container .footer-column {
+    width: 25%;
+    float: left;
+}
+
+#footer-container .hover-it {
+    padding-bottom: 30px;
+}
+
+#footer-container button.btn_sign-up {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 39px;
+    width: 38px;
+    text-indent: -999em;
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+
+#footer-container button.btn_sign-up:hover {
+    cursor: pointer;
+    background: #050708;
+}
+
+#footer-container button.btn_sign-up:hover>svg g {
+    fill: #fff;
+}
+
+#footer-container svg.icon-submitArrow {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 2;
+}
+
+.footer-email-wrapper {
+    display: flex;
+    border: 1px solid #050708;
+    width: 219px;
+    height: 39px;
+    position: relative;
+}
+
+.footer-email-form {
+    background: #fff;
+    width: 221px;
+}
+
+#footer-email-signup {
+    border: 1px;
+    border-color: #000000;
+    height: 37px;
+    margin: 0;
+    width: 180px;
+    color: #565458;
+    font-style: italic;
+    outline: none;
+    padding: 0 0 0 15px;
+    font-family: "Sanomat 4r", Georgia, serif;
+    font-size: 14px;
+}
+
+/*  FOOTER MODAL CSS */
+
+.modal {
+    font-size: 12px;
+}
+
+.modal>h2 {
+    font-family: "Sanomat 4r", Georgia, serif;
+    font-size: 48px;
+    color: #363636;
+    line-height: 80px;
+    padding-top: 0;
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    text-transform: lowercase;
+}
+
+.modal>h2 span {
+    color: #f65044;
+}
+
+.modal>.content {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.modal>.content .campaign-form {
+    width: 100%;
+    display: block;
+}
+
+.modal>.content .campaign-form .campaign-fieldset {
+    min-width: auto;
+    padding-right: 0px;
+}
+
+.modal>.content .campaign-form .email-field {
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    border: 5px solid #f65044;
+    margin-bottom: 10px;
+    box-sizing: unset;
+    padding: 0;
+    width: 325px;
+}
+
+.modal>.content .campaign-form .btn {
+    font-size: 18px;
+    color: #000000;
+    background: #f65044;
+    width: 335px;
+    height: 50px;
+    border: none;
+    position: relative;
+    top: 15px;
+    text-transform: capitalize;
+}
+
+.modal>.content .campaign-form .btn:hover {
+    color: #fff;
+    background: #002230;
+}
+
+.modal>.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: 10px;
+    top: 10px;
+    font-size: 32px;
+    background: #ffffff;
+    color: #000000;
+}
+
+.popup-content {
+    border: 5px solid #f65044 !important;
+    height: 270px;
+    width: 794px !important;
+    text-align: center;
+}
